@@ -1,0 +1,25 @@
+{
+  "name": "projeto-spotify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix Back-end && npm install --prefix Front-end && npm run build --prefix Front-end",
+    "start": "npm run start --prefix Back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ismaelblog/Projeto-Spotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ismaelblog/Projeto-Spotify/issues"
+  },
+  "homepage": "https://github.com/Ismaelblog/Projeto-Spotify#readme",
+  "dependencies": {
+    "mongodb": "^6.16.0"
+  }
+}
